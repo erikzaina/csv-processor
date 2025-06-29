@@ -1,0 +1,189 @@
+
+body {
+    font-family: 'Segoe UI Semilight', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+
+.navbar {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(90deg, #51875e, #385725);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    transition: color 0.3s ease;
+}
+
+.nav-item {
+    margin: 0px 10px !important;
+}
+
+.nav-link:hover {
+    color: #dd8711 !important;
+}
+
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.container {
+    max-width: 1200px;
+    margin-top: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #46683c;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #46683c;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #46683c !important;
+    border-color: #3a5532 !important;
+    border-radius: 8px !important;
+    padding: 0.75rem 1.5rem !important;
+    font-size: 1rem !important;
+    transition: background-color 0.3s ease, transform 0.2s ease !important;
+}
+
+.btn-primary:hover {
+    background-color: #46683c;
+    border-color: #3a5532;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    transform: translateY(-2px);
+}
+
+
+.btn-secondary {
+    background-color: #ff9a03;
+    border-color: #cd9132;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+}
+
+.btn-secondary:hover {
+    background-color: #ff9a03;
+    border-color: #ae7120;
+    transform: translateY(-2px);
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 0.75rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #46683c;
+    box-shadow: 0 0 0 0.2rem rgb(58, 85, 50);
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.table-scroll-wrapper {
+    max-height: 55vh;
+    overflow-y: auto;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.table-scroll-wrapper table thead th {
+    position: sticky;
+    top: -0.5px;
+    background-color: white;
+    z-index: 10;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+.table-container {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    color: #46683c;
+    font-weight: 600;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+
+.badge.bg-info {
+    background-color: #ff9a03 !important;
+    font-size: 0.9rem;
+    padding: 0.5em 0.8em;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .btn-primary, .btn-secondary {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
