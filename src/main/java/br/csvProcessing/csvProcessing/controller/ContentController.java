@@ -1,6 +1,5 @@
 package br.csvProcessing.csvProcessing.controller;
-
-import br.csvProcessing.csvProcessing.Service.CsvService;
+import br.csvProcessing.csvProcessing.service.CsvService;
 import br.csvProcessing.csvProcessing.entity.CsvInfo;
 import br.csvProcessing.csvProcessing.exception.InvalidCsvFormatException;
 import br.csvProcessing.csvProcessing.repository.CsvRepository;
